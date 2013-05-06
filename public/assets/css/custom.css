@@ -5,3 +5,22 @@
 	#Media Queries
 	#Font-Face */
 
+.martha {
+  background-color: #EEEEEE;
+}
+
+.martha-nav {
+  background-color:#BF4F53;
+}
+
+.martha-nav > section .marker {
+  border-bottom-color: #EEEEEE;
+}
+
+.header {
+
+}
+
+.nav-title {
+  padding: 5px;
+}

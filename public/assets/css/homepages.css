@@ -1,0 +1,176 @@
+.width100 {width:100%; margin: 0;}
+
+.new-widget { width:100%; margin-right:3.57142857%; float:left; }
+.last-widget  { margin-right:0; }
+
+.width2, .width3, .width4, .width5, .width6, .width7, .width8, .width9, .width10, .width11, .width12, .width13, .width14 { width:15.251668883219018%; } /** 5 per row **/
+.width15, .width16, .width17, .width18, .width19, .width20, .width21, .width22, .width23  { width:30.95238095%; } /** 3 per row **/
+.width15:nth-child(3n), .width16:nth-child(3n), .width17:nth-child(3n), .width18:nth-child(3n), .width19:nth-child(3n), .width20:nth-child(3n), .width21:nth-child(3n), .width22:nth-child(3n), .width23:nth-child(3n) { margin-right:0; }
+
+.width15:nth-child(3n+1), .width16:nth-child(3n+1), .width17:nth-child(3n+1), .width18:nth-child(3n+1), .width19:nth-child(3n+1), .width20:nth-child(3n+1), .width21:nth-child(3n+1), .width22:nth-child(3n+1), .width23:nth-child(3n+1) { clear:both; }
+.action-and-icon.width31, .action-and-icon.width32, .action-and-icon.width33, .action-and-icon.width34, .action-and-icon.width35, .action-and-icon.width36, .action-and-icon.width37, .action-and-icon.width38, .action-and-icon.width39, .martha .width31, .martha .width32, .martha .width33, .martha .width34, .martha .width35, .martha .width36, .martha .width37, .martha .width38, .martha .width39 { width:30.95238095% !important; }
+
+.action-and-icon.width24, .action-and-icon.width25, .action-and-icon.width26, .action-and-icon.width27, .action-and-icon.width28, .action-and-icon.width29, .action-and-icon.width30, .martha .width24, .martha .width24, .martha .width25, .martha .width26, .martha .width27, .martha .width28, .martha .width29, .martha .width30 { width:22.32142857% !important; }
+
+@media only screen and (min-width: 620px) {
+  .width15, .width16, .width17, .width18, .width19, .width20, .width21, .width22, .width23  { width:15.71428572%; margin-right:5.35714285%; }
+  .width15:nth-child(3n+1), .width16:nth-child(3n+1), .width17:nth-child(3n+1), .width18:nth-child(3n+1), .width19:nth-child(3n+1), .width20:nth-child(3n+1), .width21:nth-child(3n+1), .width22:nth-child(3n+1), .width23:nth-child(3n+1) { clear:none; }
+  .width15:nth-child(5n+1), .width16:nth-child(5n+1), .width17:nth-child(5n+1), .width18:nth-child(5n+1), .width19:nth-child(5n+1), .width20:nth-child(5n+1), .width21:nth-child(5n+1), .width22:nth-child(5n+1), .width23:nth-child(5n+1)
+  .width15:nth-child(3n), .width16:nth-child(3n), .width17:nth-child(3n), .width18:nth-child(3n), .width19:nth-child(3n), .width20:nth-child(3n), .width21:nth-child(3n), .width22:nth-child(3n), .width23:nth-child(3n) { margin-right:5.35714285%; }
+  .width15:nth-child(5n), .width16:nth-child(5n), .width17:nth-child(5n), .width18:nth-child(5n), .width19:nth-child(5n), .width20:nth-child(5n), .width21:nth-child(5n), .width22:nth-child(5n), .width23:nth-child(5n) { margin-right:0; }
+  .width2, .width3, .width4, .width5, .width6, .width7, .width8, .width9, .width10, .width11, .width12, .width13, .width14 { width:9.419642857142858%; }
+  .action-and-icon.width31, .action-and-icon.width32, .action-and-icon.width33, .action-and-icon.width34, .action-and-icon.width35, .action-and-icon.width36, .action-and-icon.width37, .action-and-icon.width38, .action-and-icon.width39, .martha .width31, .martha .width32, .martha .width33, .martha .width34, .martha .width35, .martha .width36, .martha .width37, .martha .width38, .martha .width39 { width:30.95238095%; }
+}
+
+@media only screen and (min-width: 768px) {
+  .width24, .width25, .width26, .width27, .width28, .width29, .width30  { width:45%; margin-right:5%; }
+  .width24:nth-child(2n), .width25:nth-child(2n), .width26:nth-child(2n), .width27:nth-child(2n), .width28:nth-child(2n), .width29:nth-child(2n), .width30:nth-child(2n) { margin-right:0; }
+  .width24:nth-child(2n+1), .width25:nth-child(2n+1), .width26:nth-child(2n+1), .width27:nth-child(2n+1), .width28:nth-child(2n+1), .width29:nth-child(2n+1), .width30:nth-child(2n+1) { clear:both; }
+  .action-and-icon.width31, .action-and-icon.width32, .action-and-icon.width33, .action-and-icon.width34, .action-and-icon.width35, .action-and-icon.width36, .action-and-icon.width37, .action-and-icon.width38, .action-and-icon.width39, .martha .width31, .martha .width32, .martha .width33, .martha .width34, .martha .width35, .martha .width36, .martha .width37, .martha .width38, .martha .width39 { width:30.95238095%; }
+}
+
+@media only screen and (min-width: 980px) {
+
+
+.width24, .width25, .width26, .width27, .width28, .width29, .width30  { width:22.32142857%; margin-right: 3.57142857%; }
+.width24:nth-child(2n), .width25:nth-child(2n), .width26:nth-child(2n), .width27:nth-child(2n), .width28:nth-child(2n), .width29:nth-child(2n), .width30:nth-child(2n) { margin-right:3.57142857%; }
+.width24:nth-child(4n), .width25:nth-child(4n), .width26:nth-child(4n), .width27:nth-child(4n), .width28:nth-child(4n), .width29:nth-child(4n), .width30:nth-child(4n) { margin-right:0; }
+.width24:nth-child(2n+1), .width25:nth-child(2n+1), .width26:nth-child(2n+1), .width27:nth-child(2n+1), .width28:nth-child(2n+1), .width29:nth-child(2n+1), .width30:nth-child(2n+1) { clear:none; }
+
+.width31, .width32, .width33, .width34, .width35, .width36, .width37, .width38, .width39  { width:30.95238095% }
+.width40, .width41, .width42, .width43, .width44, .width45, .width46, .width47, .width48, .width49, .width50, .width51, .width52  { width:39.905449159767734%; }
+.width53, .width54, .width55, .width56, .width57, .width58, .width59, .width60, .width61, .width62, .width63 { width:52.896520587% }
+.width64, .width65, .width66, .width67, .width68, .width69, .width70, .width71 { width:63.633505802%; }
+.width72, .width73, .width74, .width75, .width76, .width77, .width78, .width79, .width80, .width81, .width82, .width83, .width84 { width:71.71961804%; }
+.width85, .width86, .width87, .width88, .width89, .width90, .width91 { width:84.710689467%; }
+
+.action-and-icon.width31, .action-and-icon.width32, .action-and-icon.width33, .action-and-icon.width34, .action-and-icon.width35, .action-and-icon.width36, .action-and-icon.width37, .action-and-icon.width38, .action-and-icon.width39 { width:30.95238095%; }
+
+}
+
+.last-widget  { margin-right:0; }
+
+/** IE FIXES **/
+.lt-ie9 .width15, .lt-ie9 .width16, .lt-ie9 .width17, .lt-ie9 .width18, .lt-ie9 .width19, .lt-ie9 .width20, .lt-ie9 .width21, .lt-ie9 .width22, .lt-ie9 .width23 {
+  width: 15.71428572%;
+  margin-right: 5.35714285%; }
+.lt-ie9 .width15:nth-child(3n+1), .lt-ie9 .width16:nth-child(3n+1), .lt-ie9 .width17:nth-child(3n+1), .lt-ie9 .width18:nth-child(3n+1), .lt-ie9 .width19:nth-child(3n+1), .lt-ie9 .width20:nth-child(3n+1), .lt-ie9 .width21:nth-child(3n+1), .lt-ie9 .width22:nth-child(3n+1), .lt-ie9 .width23:nth-child(3n+1) {
+  clear: none; }
+.lt-ie9 .width15:nth-child(5n+1), .lt-ie9 .width16:nth-child(5n+1), .lt-ie9 .width17:nth-child(5n+1), .lt-ie9 .width18:nth-child(5n+1), .lt-ie9 .width19:nth-child(5n+1), .lt-ie9 .width20:nth-child(5n+1), .lt-ie9 .width21:nth-child(5n+1), .lt-ie9 .width22:nth-child(5n+1), .lt-ie9 .width23:nth-child(5n+1)
+.width15:nth-child(3n), .lt-ie9 .width16:nth-child(3n), .lt-ie9 .width17:nth-child(3n), .lt-ie9 .width18:nth-child(3n), .lt-ie9 .width19:nth-child(3n), .lt-ie9 .width20:nth-child(3n), .lt-ie9 .width21:nth-child(3n), .lt-ie9 .width22:nth-child(3n), .lt-ie9 .width23:nth-child(3n) {
+  margin-right: 5.35714285%; }
+.lt-ie9 .width15:nth-child(5n), .lt-ie9 .width16:nth-child(5n), .lt-ie9 .width17:nth-child(5n), .lt-ie9 .width18:nth-child(5n), .lt-ie9 .width19:nth-child(5n), .lt-ie9 .width20:nth-child(5n), .lt-ie9 .width21:nth-child(5n), .lt-ie9 .width22:nth-child(5n), .lt-ie9 .width23:nth-child(5n) {
+  margin-right: 0; }
+.lt-ie9 .width2, .lt-ie9 .width3, .lt-ie9 .width4, .lt-ie9 .width5, .lt-ie9 .width6, .lt-ie9 .width7, .lt-ie9 .width8, .lt-ie9 .width9, .lt-ie9 .width10, .lt-ie9 .width11, .lt-ie9 .width12, .lt-ie9 .width13, .lt-ie9 .width14 {
+  width: 9.419642857142858%; }
+.lt-ie9 .action-and-icon.width31, .lt-ie9 .action-and-icon.width32, .lt-ie9 .action-and-icon.width33, .lt-ie9 .action-and-icon.width34, .lt-ie9 .action-and-icon.width35, .lt-ie9 .action-and-icon.width36, .lt-ie9 .action-and-icon.width37, .lt-ie9 .action-and-icon.width38, .lt-ie9 .action-and-icon.width39, .lt-ie9 .martha .width31, .lt-ie9 .martha .width32, .lt-ie9 .martha .width33, .lt-ie9 .martha .width34, .lt-ie9 .martha .width35, .lt-ie9 .martha .width36, .lt-ie9 .martha .width37, .lt-ie9 .martha .width38, .lt-ie9 .martha .width39 {
+  width: 30.95238095%; }
+.lt-ie9 .width24, .lt-ie9 .width25, .lt-ie9 .width26, .lt-ie9 .width27, .lt-ie9 .width28, .lt-ie9 .width29, .lt-ie9 .width30 {
+  width: 45%;
+  margin-right: 5%; }
+.lt-ie9 .width24:nth-child(2n), .lt-ie9 .width25:nth-child(2n), .lt-ie9 .width26:nth-child(2n), .lt-ie9 .width27:nth-child(2n), .lt-ie9 .width28:nth-child(2n), .lt-ie9 .width29:nth-child(2n), .lt-ie9 .width30:nth-child(2n) {
+  margin-right: 0; }
+.lt-ie9 .width24:nth-child(2n+1), .lt-ie9 .width25:nth-child(2n+1), .lt-ie9 .width26:nth-child(2n+1), .lt-ie9 .width27:nth-child(2n+1), .lt-ie9 .width28:nth-child(2n+1), .lt-ie9 .width29:nth-child(2n+1), .lt-ie9 .width30:nth-child(2n+1) {
+  clear: both; }
+.lt-ie9 .action-and-icon.width31, .lt-ie9 .action-and-icon.width32, .lt-ie9 .action-and-icon.width33, .lt-ie9 .action-and-icon.width34, .lt-ie9 .action-and-icon.width35, .lt-ie9 .action-and-icon.width36, .lt-ie9 .action-and-icon.width37, .lt-ie9 .action-and-icon.width38, .lt-ie9 .action-and-icon.width39, .lt-ie9 .martha .width31, .lt-ie9 .martha .width32, .lt-ie9 .martha .width33, .lt-ie9 .martha .width34, .lt-ie9 .martha .width35, .lt-ie9 .martha .width36, .lt-ie9 .martha .width37, .lt-ie9 .martha .width38, .lt-ie9 .martha .width39 {
+  width: 30.95238095%; }
+.lt-ie9 .width24, .lt-ie9 .width25, .lt-ie9 .width26, .lt-ie9 .width27, .lt-ie9 .width28, .lt-ie9 .width29, .lt-ie9 .width30 {
+  width: 22.32142857%;
+  margin-right: 3.57142857%; }
+.lt-ie9 .width24:nth-child(2n), .lt-ie9 .width25:nth-child(2n), .lt-ie9 .width26:nth-child(2n), .lt-ie9 .width27:nth-child(2n), .lt-ie9 .width28:nth-child(2n), .lt-ie9 .width29:nth-child(2n), .lt-ie9 .width30:nth-child(2n) {
+  margin-right: 3.57142857%; }
+.lt-ie9 .width24:nth-child(4n), .lt-ie9 .width25:nth-child(4n), .lt-ie9 .width26:nth-child(4n), .lt-ie9 .width27:nth-child(4n), .lt-ie9 .width28:nth-child(4n), .lt-ie9 .width29:nth-child(4n), .lt-ie9 .width30:nth-child(4n) {
+  margin-right: 0; }
+.lt-ie9 .width24:nth-child(2n+1), .lt-ie9 .width25:nth-child(2n+1), .lt-ie9 .width26:nth-child(2n+1), .lt-ie9 .width27:nth-child(2n+1), .lt-ie9 .width28:nth-child(2n+1), .lt-ie9 .width29:nth-child(2n+1), .lt-ie9 .width30:nth-child(2n+1) {
+  clear: none; }
+.lt-ie9 .width31, .lt-ie9 .width32, .lt-ie9 .width33, .lt-ie9 .width34, .lt-ie9 .width35, .lt-ie9 .width36, .lt-ie9 .width37, .lt-ie9 .width38, .lt-ie9 .width39 {
+  width: 30.95238095%; }
+.lt-ie9 .width40, .lt-ie9 .width41, .lt-ie9 .width42, .lt-ie9 .width43, .lt-ie9 .width44, .lt-ie9 .width45, .lt-ie9 .width46, .lt-ie9 .width47, .lt-ie9 .width48, .lt-ie9 .width49, .lt-ie9 .width50, .lt-ie9 .width51, .lt-ie9 .width52 {
+  width: 39.905449159767734%; }
+.lt-ie9 .width53, .lt-ie9 .width54, .lt-ie9 .width55, .lt-ie9 .width56, .lt-ie9 .width57, .lt-ie9 .width58, .lt-ie9 .width59, .lt-ie9 .width60, .lt-ie9 .width61, .lt-ie9 .width62, .lt-ie9 .width63 {
+  width: 52.896520587%; }
+.lt-ie9 .width64, .lt-ie9 .width65, .lt-ie9 .width66, .lt-ie9 .width67, .lt-ie9 .width68, .lt-ie9 .width69, .lt-ie9 .width70, .lt-ie9 .width71 {
+  width: 63.633505802; }
+.lt-ie9 .width72, .lt-ie9 .width73, .lt-ie9 .width74, .lt-ie9 .width75, .lt-ie9 .width76, .lt-ie9 .width77, .lt-ie9 .width78, .lt-ie9 .width79, .lt-ie9 .width80, .lt-ie9 .width81, .lt-ie9 .width82, .lt-ie9 .width83, .lt-ie9 .width84 {
+  width: 71.71961804%; }
+.lt-ie9 .width85, .lt-ie9 .width86, .lt-ie9 .width87, .lt-ie9 .width88, .lt-ie9 .width89, .lt-ie9 .width90, .lt-ie9 .width91 {
+  width: 84.710689467%; }
+.lt-ie9 .action-and-icon.width31, .lt-ie9 .action-and-icon.width32, .lt-ie9 .action-and-icon.width33, .lt-ie9 .action-and-icon.width34, .lt-ie9 .action-and-icon.width35, .lt-ie9 .action-and-icon.width36, .lt-ie9 .action-and-icon.width37, .lt-ie9 .action-and-icon.width38, .lt-ie9 .action-and-icon.width39 {
+  width: 30.95238095%; }
+
+  /* NEW CAROUSEL */
+
+.slidewrap {padding: 0;}
+
+.container.large-carousel--new > section {margin: 0; padding: 0; width: 100%;}
+
+.slidewrap {overflow: hidden !important; position: relative; width: 100%; margin: 0; padding: 0; }
+.slider {margin: 0; padding: 0; }
+.slider li {margin: 0; padding: 0; overflow: hidden}
+
+.crop {width:100%; overflow: visible; position: relative; height: 30%;overflow: visible; margin: 0; margin-top: -25px; padding: 0; z-index: 1;}
+
+.crop img { display: block; width: 100%; }
+
+.copy { float: none; overflow: auto; width: 100%; background: #D1A800; padding: 2em 0 2.3em 0; z-index: 1000000; position: relative}
+.copy h2 {margin: 0; font-size: 1.8em; line-height: 1.7em; }
+.copy h2 a {width: 31%;  font-weight: normal; text-decoration: none; margin: 0px; float: left; text-align: left; color: #222; margin-left: 4%; display: block; }
+.copy h2 a:hover {text-decoration: underline; color: #444}
+.copy p {display: block; width: 40%; padding: 8px 0 0 2%;  float: left;font-size: 1.2em; margin: 0;}
+.copy .btn-alt {float: right; display: block; margin-right: 4%; }
+
+.crop:after {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  z-index:999;
+}
+.crop:after {
+  border-color: rgba(211, 168, 9, 0);
+  border-bottom-color:#D3A809;
+  border-width: 20px;
+  left: 4%;
+  bottom: 0px;
+  margin-left:0;
+  z-index:999;
+}
+
+.slidecontrols {list-style: none; position: absolute; z-index: 1000000; width: 100%; top: 40%; padding: 0; margin: 0;}
+.slidecontrols li {margin-left: 0px; }
+.slidecontrols li.prev-arrow {float: left;}
+.slidecontrols li.next-arrow {float: right;}
+.slidecontrols li a {display: block; color: #FFF; position: absolute; font-size: 4em; top: 50%; margin-top: -.5em; text-decoration: none; text-shadow: 0 0 8px #000;}
+.slidecontrols li span {display: none;}
+.carousel-tabs {position: absolute; top: 0; width: 100%; text-align: center; margin: 0; padding: 0; z-index: 1000000;}
+.carousel-tabs li {display: inline-block}
+.carousel-tabs li a {height: 1em; width: 1em; background-color: rgba(255, 255, 255, 0.6); margin: 0 10px; border-radius: 60px; text-indent: -100000px}
+.carousel-tabs li.carousel-active-tab a { background-color: rgba(255, 255, 255, 0.8); }
+.carousel-tabs li a:focus {outline: none;}
+.carousel-tabs li a:link, .carousel-tabs li a:visited, .slidecontrols li a:link, .slidecontrols li a:visited {display: block; position: relative;}
+.carousel-tabs li.carousel-active-tab a {font-weight: normal;}
+.slidecontrols a.carousel-disabled:link, .slidecontrols a.carousel-disabled:visited, .slidecontrols a.carousel-disabled:active, .slidecontrols a.carousel-disabled:hover  {font-weight: normal; cursor: default; color: #ccc; opacity: .4; text-decoration: none;}
+
+
+.lt-ie9 .carousel-tabs {position: absolute; left: 0;  z-index: 111111111; margin-left: 50%;}
+.lt-ie9 .carousel-tabs li {float: left; display: inline}
+.lt-ie9 .carousel-tabs li a {background-color: #fff;}
+.lt-ie9 .copy .btn-alt {background: #E0C559; color: #000}
+.lt-ie9 .copy .btn-alt:hover {background: #E5CE73}
+
+.lt-ie8 .slidecontrols {position: absolute}
+.lt-ie8 .slidecontrols li span {display: block; font-size: 10px; background: #fff; color: #000; padding: 10px 20px; font-weight: bold;}
+.lt-ie8 .slidecontrols li.next-arrow {float: left; margin-left: 96%;}
+
+@media only screen and (max-width: 700px) {
+
+  .slidecontrols {top: 30%}
+  .carousel-tabs {display: none }
+  .copy h2 a {width: 100%; text-align: center; margin: 0 0 20px 0}
+  .copy  p {display: none;}
+  .copy .btn-alt {float: none; margin: 10px auto; clear: both; width: 40%;}
+
+}
