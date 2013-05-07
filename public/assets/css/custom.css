@@ -24,3 +24,20 @@
 .nav-title {
   padding: 5px;
 }
+
+.slide p {
+  color: black;
+}
+
+.inner-slide article {
+
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+
+
