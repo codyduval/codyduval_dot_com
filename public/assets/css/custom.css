@@ -40,4 +40,59 @@ margin-right:auto;
 width:50%;
 }
 
+.brand    { overflow:auto; float:left; display:block; margin-bottom:10px; width:25em; text-indent:-999em; background-image:url('../images/cody-duval-logo-3.png'); background-image:none, url(../images/cody-duval-logo-3.png); background-repeat:no-repeat; min-height:5em; margin-top:1em; }
+footer .brand {
+  width:25em;
+  margin-bottom:0;
+}
 
+.martha-direction { cursor:pointer;  color: rgba(0,0,0,0.3); -webkit-transition:all .3s ease-in-out; -moz-transition:all .3s ease-in-out; transition:all .3s ease-in-out; padding-left:20px; padding-right:20px;}
+
+.martha .micon-left-open, .martha .micon-right-open {
+top: 40%;
+bottom: auto;
+}
+
+.martha li nav ul li a {
+display: block;
+width: 1em;
+height: 1em;
+border-radius: 20px;
+background-color: rgba(0,0,0,0.5);
+text-indent: -999em;
+}
+
+.martha li nav ul li.active a {
+/*background-color: rgba(255,255,255,0.5);
+*/background-color: black;
+}
+
+.martha-close {
+position: absolute;
+top: 1.0em;
+right: 15px;
+background-color:black;
+background-color: rgba(0,0,0,0.3);
+display: block;
+padding: .15em .35em;
+height: 1em;
+line-height: 0.9em;
+color: white;
+text-decoration: none;
+border-radius: 20px;
+font-size: 1.5em;
+font-weight: bold;
+color: #BF4F53;
+}
+
+.micon-container {
+width: 100%;
+text-align: center;
+color: white;
+font-family: 'fontello';
+font-weight: normal;
+font-style: normal;
+speak: none;
+font-size: 5em;
+padding-bottom: .1em;
+}
