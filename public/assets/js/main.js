@@ -186,6 +186,7 @@ $('.inner-slide').hide();
     }
     else  {
       $('i.icon-chevron-left').show();
+      $('i.icon-chevron-right').show();
     }
   });
 

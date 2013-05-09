@@ -10,6 +10,9 @@ body {
   min-height:900px;
 }
 
+p {
+  font-size:15px;
+}
 
 .martha {
   background-color: #EEEEEE;
@@ -54,11 +57,15 @@ body {
   text-align: left;
 }
 
-.martha li ul .inner-slide .project a {
-  color: #BF4F53;
+.martha .slide a {
+  color: #A63236;
   text-decoration: none;
 }
 
+.martha .slide a:visited {
+  color: #A63236;
+  text-decoration: none;
+}
 
 .brand    { overflow:auto; float:left; display:block; margin-bottom:10px; width:25em; text-indent:-999em; background-image:url('../images/cody-duval-logo-3.png'); background-image:none, url(../images/cody-duval-logo-3.png); background-repeat:no-repeat; min-height:5em; margin-top:1em; }
 footer .brand {
