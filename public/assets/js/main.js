@@ -252,14 +252,14 @@ $('.inner-slide').hide();
 
   }
 
-  $('i.icon-chevron-left').click(function(e){
+  $('i.icon-chevron-left, .prev-slide').click(function(e){
     var activeSlide = $('.martha .slide.active');
     if($(activeSlide).children('nav').children('ul').children('.active').prev().length) {
       $(activeSlide).children('nav').children('ul').children('.active').prev().children('a').click();
     }
   });
 
-  $('i.icon-chevron-right').click(function(e){
+  $('i.icon-chevron-right, .next-slide').click(function(e){
     var activeSlide = $('.martha .slide.active');
     if($(activeSlide).children('nav').children('ul').children('.active').next().length) {
       $(activeSlide).children('nav').children('ul').children('.active').next().children('a').click();
