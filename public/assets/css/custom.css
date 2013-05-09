@@ -5,6 +5,12 @@
 	#Media Queries
 	#Font-Face */
 
+body {
+  font-family: 'Roboto Slab', serif;
+  min-height:900px;
+}
+
+
 .martha {
   background-color: #EEEEEE;
 }
@@ -12,6 +18,7 @@
 .martha-nav {
   background-color:#BF4F53;
 }
+
 
 .martha-nav > section .marker {
   border-bottom-color: #EEEEEE;
@@ -22,7 +29,11 @@
 }
 
 .nav-title {
-  padding: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #EEEEEE;
+  color: black;
 }
 
 .slide p {
@@ -33,12 +44,21 @@
 
 }
 
-.center
-{
-margin-left:auto;
-margin-right:auto;
-width:50%;
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
 }
+
+.project {
+  text-align: left;
+}
+
+.martha li ul .inner-slide .project a {
+  color: #BF4F53;
+  text-decoration: none;
+}
+
 
 .brand    { overflow:auto; float:left; display:block; margin-bottom:10px; width:25em; text-indent:-999em; background-image:url('../images/cody-duval-logo-3.png'); background-image:none, url(../images/cody-duval-logo-3.png); background-repeat:no-repeat; min-height:5em; margin-top:1em; }
 footer .brand {
@@ -68,31 +88,102 @@ text-indent: -999em;
 }
 
 .martha-close {
-position: absolute;
-top: 1.0em;
-right: 15px;
-background-color:black;
-background-color: rgba(0,0,0,0.3);
-display: block;
-padding: .15em .35em;
-height: 1em;
-line-height: 0.9em;
-color: white;
-text-decoration: none;
-border-radius: 20px;
-font-size: 1.5em;
-font-weight: bold;
-color: #BF4F53;
+  position: absolute;
+  top: 1.0em;
+  right: 15px;
+  background-color:black;
+  background-color: rgba(0,0,0,0.3);
+  display: block;
+  padding: .15em .35em;
+  height: 1em;
+  line-height: 0.9em;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #BF4F53;
 }
 
 .micon-container {
-width: 100%;
-text-align: center;
-color: white;
-font-family: 'fontello';
-font-weight: normal;
-font-style: normal;
-speak: none;
-font-size: 5em;
-padding-bottom: .1em;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  font-size: 5em;
+  padding-bottom: .1em;
+}
+
+.contact_info{
+  float:right;
+  width: 225px;
+}
+
+.headshot {
+  display: inline;
+  text-align: left;
+  float: left;
+  margin-right: 13px;
+  margin-top: 6px;
+}
+
+.headshot_copy {
+  display: inline;
+  text-align: left;
+}
+
+
+.headshot img{
+  border:4px solid black;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #949494;
+  vertical-align:bottom;
+}
+
+.social_nets {
+  list-style-type: none;
+  margin-left    : 0;
+}
+.social_nets li {
+  cursor               : pointer;
+  line-height          : 30px;
+  height               : 22px;
+  padding-left         : 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius   : 12px;
+  border-radius        : 12px;
+}
+
+.social_nets li a {
+  color: #242424;
+  text-decoration: none;
+}
+
+.social_nets li a:hover {
+  text-decoration: none;
+}
+
+.social_nets li [class^="icon-"],
+.social_nets li [class*=" icon-"] {
+  width    : 32px;
+  font-size: 16px;
+  color: #242424;
+}
+
+.social_nets li:hover {
+
+}
+.social_nets li:hover [class^="icon-"],
+.social_nets li:hover [class*=" icon-"] {
+  *font-size     : 24px;
+  *vertical-align: middle;
+}
+.social_nets li:hover [class^="icon-"]:before,
+.social_nets li:hover [class*=" icon-"]:before {
+  font-size     : 24px;
+  vertical-align: middle;
 }
