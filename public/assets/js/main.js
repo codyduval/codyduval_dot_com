@@ -1,31 +1,3 @@
-/**
- * -----------------------------------------------------------------------------
- *  /plugins.js
- * -----------------------------------------------------------------------------
- */
-
-// Avoid `console` errors in browsers that lack a console.
-if (!(window.console && console.log)) {
-    (function() {
-        var noop = function() {};
-        var methods = ['assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error', 'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log', 'markTimeline', 'profile', 'profileEnd', 'markTimeline', 'table', 'time', 'timeEnd', 'timeStamp', 'trace', 'warn'];
-        var length = methods.length;
-        var console = window.console = {};
-        while (length--) {
-            console[methods[length]] = noop;
-        }
-    }());
-}
-
-// Place any jQuery/helper plugins in here.
-
-
-/**
- * -----------------------------------------------------------------------------
- *  /main.js
- * -----------------------------------------------------------------------------
- */
-
 $(document).ready(function() {
   jQuery.fn.nextOrFirst = function(selector){
       var next = this.next(selector);
@@ -35,7 +7,7 @@ $(document).ready(function() {
       var prev = this.prev(selector);
       return (prev.length) ? prev : this.nextAll(selector).last();
   }
-  // restucture aside for mobile version
+
   function reflow() {
     if($('.document').length){
       var aside = $('#content section aside').not('.item-meta').not('.right-bar');
@@ -106,32 +78,24 @@ $(document).ready(function() {
     reflow();
   });
 
-  // Left menu toggling
-
-  $('#content aside nav > ul > li ul').hide();
-  $('#content aside nav > ul > li ul.visible').show();
-  $('#content aside nav > ul > li ul').parent().children('a').click(function(e){
-    e.preventDefault();
-    $(this).parent().find('ul').slideToggle(300);
-  });
-
-  // Search Toggling
-  $('.show-search').click(function(e) {
-    e.preventDefault();
-    $(this).next('form').slideToggle(420);
-  });
-
-  /** Slidy FAQs **/
-  $(".answer").hide();
-
-  $('.question a').click(function(e) {
-    e.preventDefault();
-    $(this).parent().next('.answer').slideToggle(300);
-  });
-
-  // Taxonomy Toggle
-
-  //Announcement closing
+$("#contact_expose").click(function() {
+  if($(".thanks").is(":visible")) {
+    $(".thanks").fadeOut("fast", function(){
+      $(".contact_info").fadeToggle("fast");
+    });
+  } else {
+    $(".contact_info").fadeToggle("fast");
+  }
+});
+$("#thanks_expose").click(function() {
+  if($(".contact_info").is(":visible")) {
+    $(".contact_info").fadeOut("fast", function(){
+      $(".thanks").fadeToggle("fast");
+    });
+  } else {
+    $(".thanks").fadeToggle("fast");
+  }
+});
 
   $('.important .close').click(function(e) {
     e.preventDefault();
@@ -144,11 +108,6 @@ $(document).ready(function() {
   var visibleTopics;
 
   if($('.sidebar').length) { var sidebarTop = $('.sidebar').offset().top; }
-
-  /*
-$('.inner-slide').hide();
-  $('.inner-slide.active').show();
-*/
 
   $('.inner-slides').each(function() {
     var count = $(this).children('li').length;
@@ -201,7 +160,6 @@ $('.inner-slide').hide();
     }
   });
 
-  /** Martha **/
   function updateActive() {
     var windowWidth = $('.martha-nav > section').outerWidth();
     var activeOffset = $('.martha-nav .active').offset().left - $('.martha-nav > section').offset().left;
@@ -317,8 +275,6 @@ $('.inner-slide').hide();
     moved,
     touched;
 
-  /** Swiping Martha, saucy **/
-
   $('.draggable .inner-slide').bind('touchstart', function(e) {
     var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
     startx = touch.pageX;
@@ -387,6 +343,3 @@ $('.inner-slide').hide();
     }
   });
 });
-
-
-
