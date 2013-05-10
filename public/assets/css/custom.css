@@ -74,7 +74,7 @@ p {
   text-decoration: underline;
 }
 
-.brand    { overflow:auto; float:left; display:block; margin-bottom:1em; width:25em; text-indent:-999em; background-image:url('../images/cody-duval-logo-3.png'); background-image:none, url(../images/cody-duval-logo-3.png); background-repeat:no-repeat; min-height:5em; margin-top:1em; }
+.brand    { overflow:auto; float:left; display:block; margin-bottom:1em; width:25em; text-indent:-999em; background-image:url('../images/cody-duval-logo-3.png'); background-image:none, url(../images/cody-duval-logo-3.png); background-repeat:no-repeat; min-height:70px; margin-top:1em; }
 
 footer.container {
   padding-top: 0.4em;
