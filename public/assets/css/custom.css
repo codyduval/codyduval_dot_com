@@ -1,12 +1,6 @@
-/* Table of Contents
-==================================================
-	#Site Styles
-	#Page Styles
-	#Media Queries
-	#Font-Face */
 
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', Rockwell,  serif;
   min-height:1000px;
 }
 
@@ -125,7 +119,6 @@ footer nav li {
 
 }
 
-
 .martha-direction { cursor:pointer;  color: rgba(0,0,0,0.3); -webkit-transition:all .3s ease-in-out; -moz-transition:all .3s ease-in-out; transition:all .3s ease-in-out; padding-left:20px; padding-right:20px;}
 
 .martha .micon-left-open, .martha .micon-right-open {
@@ -174,6 +167,10 @@ text-indent: -999em;
   speak: none;
   font-size: 5em;
   padding-bottom: .1em;
+}
+
+.micon-widget img {
+  margin: 1.3em 0;
 }
 
 .contact_info{
