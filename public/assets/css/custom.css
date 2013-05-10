@@ -185,6 +185,7 @@ text-indent: -999em;
   float: left;
   margin-right: 13px;
   margin-top: 6px;
+  padding:1px;
 }
 
 .headshot_copy {
