@@ -83,6 +83,8 @@ p {
   background-size: 100%;
   float: left;
   padding-bottom: 0.5em;
+  width: 19em;
+  min-height: 5em;
  }
 
 footer.container {
