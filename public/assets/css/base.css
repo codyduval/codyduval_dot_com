@@ -1130,7 +1130,7 @@ form.form-pid input[type="submit"] { padding:0.7em 15%; margin: 0.72em auto 0; }
 .action > section { padding:1.4em 0; }
 .micon-widget h3 { font-size:1.1em; }
 
-.nav-title  { font-size:1.27em; }
+.nav-title  { font-size: 1.1em; }
 .new-widget h2    { font-weight:normal; font-size:1.4em; letter-spacing:-1px; margin-top:.55em; color:#555; margin-bottom:.95em;}
 .taxonomy h2 { margin-bottom:0; margin-top:.85em; letter-spacing:0; font-size:1.1em; }
 
@@ -1353,7 +1353,7 @@ ul.pagination { list-style: none; position: relative; width: 100%; padding: 0; }
   .content article p  { line-height:1.71428571em; }
   .attribution li   { padding:0; display:inline-block; width:30.821429%; text-align:center; margin-right:3.28%; }
   .nav-subtitle { font-size:.93em; }
-  .nav-title { font-size:1.1em; }
+  .nav-title { font-size:1.4em; }
 
   #content .sidebar-all,
   #content aside { clear: left; width: 22.410714284%; margin-right:3.57142857%; float: left; }
@@ -1506,7 +1506,7 @@ ul.pagination { list-style: none; position: relative; width: 100%; padding: 0; }
   .googleMap { margin:0 0 2em 0; width: 100%; }
   #content article h4 { margin:0; }
   .attribution li   { padding:0; display:inline-block; width:30.821429%; text-align:center; margin-right:3.28%; }
-  .nav-title  { font-size:1.172em; }
+  .nav-title  { font-size:1.8em; }
   .featured-item .more    { width:15.251668883219018%; float:right; clear:none; position:absolute; right:0; top:50%; margin-top:-2em; }
   .featured-item p  { width:52.316163444%; }
 

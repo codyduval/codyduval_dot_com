@@ -238,9 +238,9 @@ $("#thanks_expose").click(function() {
     else {
       $('.nav-title').show();
 
-      if($(window).width() < 550) {
-        $(this).find('.nav-title').delay(100).fadeOut(200);
-      }
+      // if($(window).width() < 550) {
+      //   $(this).find('.nav-title').delay(100).fadeOut(200);
+      // }
       $('.martha-nav .active').removeClass('active');
       $(this).parent().addClass('active');
       showSlide($(this).parent().index());
