@@ -78,13 +78,15 @@ p {
 
 .brand    {
   background-image:url('../images/cody-duval-logo-3.png');
+  background-repeat: no-repeat;
+  display: block;
   max-width: 100%;
   max-height: 100%;
   background-size: 100%;
   float: left;
   padding-bottom: 0.5em;
   width: 19em;
-  min-height: 5em;
+  min-height: 68px;
  }
 
 footer.container {
